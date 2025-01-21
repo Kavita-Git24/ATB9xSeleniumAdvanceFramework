@@ -1,5 +1,6 @@
 package com.SeleniumTesting.tests.vwoTestCases;
 
+import com.SeleniumTesting.pages.pageObjectModel.vwo.DashboardPage;
 import com.SeleniumTesting.pages.pageObjectModel.vwo.LoginPage;
 import io.qameta.allure.*;
 import org.openqa.selenium.WebDriver;
@@ -22,5 +23,20 @@ public class TestVWOLogin_POM {
         assertThat(error_msg).isNotBlank().isNotNull().isNotEmpty();
         Assert.assertEquals(error_msg,"Your email, password, IP address or location did not match");
 
+    }
+
+    @Owner("Kavita")
+    @Description("Verify that valid creds dashboard page is loaded")
+    @Test
+    public void testLoginPositiveVWO() {
+        WebDriver driver = new EdgeDriver();
+
+        LoginPage loginPage_VWO = new LoginPage(driver);
+        loginPage_VWO.loginToVWOLoginValidCreds("contact+aug@thetestingacademy.com","TtxkgQ!s$rJBk85");
+        DashboardPage dashBoardPage  = new DashboardPage(driver);
+        String usernameLoggedIn = dashBoardPage.loggedInUserName();
+
+        assertThat(usernameLoggedIn).isNotBlank().isNotNull().isNotEmpty();
+        Assert.assertEquals(usernameLoggedIn,"Aman");
     }
 }

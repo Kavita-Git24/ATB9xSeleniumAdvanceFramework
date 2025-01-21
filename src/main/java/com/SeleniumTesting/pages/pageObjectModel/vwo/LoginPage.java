@@ -40,7 +40,7 @@ public class LoginPage {
 
     }
 
-    /*public void loginToVWOLoginValidCreds(String user, String pwd) {
+    public void loginToVWOLoginValidCreds(String user, String pwd) {
 
         //driver.get(PropertiesReader.readKey("url"));
         driver.findElement(username).sendKeys(user);
@@ -52,6 +52,6 @@ public class LoginPage {
             throw new RuntimeException(e);
         }
 
-    }*/
+    }
 
 }
