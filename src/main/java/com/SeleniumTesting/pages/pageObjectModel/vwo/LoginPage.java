@@ -43,6 +43,7 @@ public class LoginPage {
     public void loginToVWOLoginValidCreds(String user, String pwd) {
 
         //driver.get(PropertiesReader.readKey("url"));
+        driver.get("https://app.vwo.com");
         driver.findElement(username).sendKeys(user);
         driver.findElement(password).sendKeys(pwd);
         driver.findElement(signButton).click();

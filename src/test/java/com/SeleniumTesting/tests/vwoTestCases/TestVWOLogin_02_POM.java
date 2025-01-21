@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class TestVWOLogin_POM {
+public class TestVWOLogin_02_POM {
     @Owner("Kavita")
     @Description("Verify that invalid creds give error message")
     @Test
