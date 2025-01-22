@@ -1,7 +1,7 @@
 package com.SeleniumTesting.tests.vwoTestCases;
 
-import com.SeleniumTesting.pages.pageObjectModel.vwo.DashboardPage;
-import com.SeleniumTesting.pages.pageObjectModel.vwo.LoginPage;
+import com.SeleniumTesting.pages.pageObjectModel.vwo.normal.DashboardPage;
+import com.SeleniumTesting.pages.pageObjectModel.vwo.normal.LoginPage;
 import io.qameta.allure.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;

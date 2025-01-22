@@ -1,4 +1,4 @@
-package com.SeleniumTesting.pages.pageObjectModel.vwo;
+package com.SeleniumTesting.pages.pageObjectModel.vwo.normal;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
