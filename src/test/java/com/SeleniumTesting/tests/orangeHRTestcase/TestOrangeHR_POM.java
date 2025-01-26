@@ -1,7 +1,7 @@
 package com.SeleniumTesting.tests.orangeHRTestcase;
 
-import com.SeleniumTesting.pages.pageObjectModel.orangeHR.EmployeeListHomePage;
-import com.SeleniumTesting.pages.pageObjectModel.orangeHR.LoginHRPage;
+import com.SeleniumTesting.pages.pageObjectModel.orangeHR.normal.EmployeeListHomePage;
+import com.SeleniumTesting.pages.pageObjectModel.orangeHR.normal.LoginHRPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;

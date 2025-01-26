@@ -1,4 +1,4 @@
-package com.SeleniumTesting.pages.pageObjectModel.orangeHR;
+package com.SeleniumTesting.pages.pageObjectModel.orangeHR.improved_pom;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

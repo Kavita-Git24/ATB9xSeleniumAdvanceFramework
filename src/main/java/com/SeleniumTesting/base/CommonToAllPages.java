@@ -65,4 +65,8 @@ public class CommonToAllPages {
         return getDriver().findElement(key);
     }
 
+    //Katalon
+    public void openKatalonUrl() {
+        getDriver().get(PropertiesReader.readKey("katalon_url"));
+    }
 }

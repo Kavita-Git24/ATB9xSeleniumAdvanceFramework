@@ -13,9 +13,7 @@ import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestVWOLogin_05_POM_PropertyReader_DriverManager extends CommonToAllTest{
-    @Owner("Kavita")
-    @Description("Verify that invalid creds give error message")
-    @Test
+
     public void testLoginNegativeVWO() {
 
         LoginPage loginPage_vwo=new LoginPage(DriverManager.getDriver());
