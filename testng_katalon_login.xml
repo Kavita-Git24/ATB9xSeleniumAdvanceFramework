@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/Kavita singh/IdeaProjects/ATB9xSeleniumAdvanceFramework/src/test/java/com/SeleniumTesting/tests/KatalonTestCases">
         <classes>
-            <class name="com.SeleniumTesting.tests.KatalonTestcase.TestKatalon_01_NormalScript">
+            <class name="com.SeleniumTesting.tests.KatalonTestcase.TestKatalon_01_Login_NormalScript">
             </class>
         </classes>
     </test>
